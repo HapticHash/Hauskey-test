@@ -1,0 +1,153 @@
+.MoveToApp {
+  display: inline-block;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.MoveApp {
+  margin: 6em 0 0 !important;
+}
+.MoveApp__img {
+  width: 100%;
+  border-radius: 1em 1em 0 0;
+}
+
+.MoveToApp .MoveToApp__mobile {
+  display: inline-block;
+  width: 100%;
+}
+.MoveToApp .MoveToApp__mobile img {
+  display: inline-block;
+  width: 100%;
+}
+.MoveToApp__desc {
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+}
+
+.MoveToApp__desc h3 {
+  font-family: "Work Sans", Arial, sans-serif;
+  font-style: normal;
+  font-size: 3.125rem;
+  line-height: 59px;
+  letter-spacing: -1.4877px;
+  color: #01142a;
+  margin-top: 1em;
+  margin-bottom: 15px;
+  font-weight: 800;
+}
+
+.MoveToApp__desc h4 {
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 1.5rem;
+  line-height: 47px;
+  letter-spacing: -1.19016px;
+  color: #565656;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+.MoveToApp__wrapper {
+  margin: 2em 0;
+}
+.MoveToApp .MoveToApp__App__Link {
+  margin-bottom: 0;
+}
+.MoveToApp__App__Link {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.MoveToApp__App__Link ul {
+  display: inline-block;
+  width: 100%;
+}
+
+.MoveToApp__App__Link ul li {
+  display: inline-block;
+  margin-right: 0;
+  margin-bottom: 8px;
+  width: auto;
+}
+.MoveToApp__App__Link ul li a,
+.MoveToApp__App__Link ul li a img {
+  display: inline-block;
+  width: 100%;
+  touch-action: manipulation;
+}
+
+.MoveToApp__App__Link .MoveToApp__App__Links li a img {
+  display: inline-block;
+  width: 100%;
+  max-width: 180px;
+}
+
+.App__features__card {
+  text-align: left;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  border-radius: 1em;
+  margin: 0 0 2em;
+  transition: 0.7s all ease;
+}
+.App__features__card:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  transition: 0.7s all ease;
+  transform: scale(1.02);
+}
+
+.App__features__title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "Work Sans", serif;
+  text-align: center;
+}
+.App__features__text {
+  font-size: 1rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.MoveToApp__heading {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.MoveToApp__heading h3 {
+  font-size: 3.125rem;
+  line-height: 59px;
+  letter-spacing: -1.4877px;
+  font-family: "Work Sans", Arial, sans-serif;
+  color: #01142a;
+  margin-bottom: 1em;
+  font-weight: 800;
+}
+
+@media only screen and (min-width: 320px) {
+  .MoveToApp__desc h3 {
+    font-size: 2.125rem;
+  }
+  .MoveToApp__desc h4 {
+    font-size: 1.2rem;
+    line-height: 30px;
+  }
+  .CashBack__imageBot {
+    margin-top: 0;
+  }
+  .CashBack__imageBot {
+    margin-top: 0 !important;
+  }
+}
+
+@media only screen and (min-width: 1020px) {
+  .CashBack__imageBot {
+    margin-top: -1em !important;
+  }
+  .MoveToApp__desc {
+    margin-top: 2rem;
+  }
+}

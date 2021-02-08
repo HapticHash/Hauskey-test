@@ -1,0 +1,130 @@
+.PropertyPrice {
+  width: 90%;
+  background-color: #fff;
+  padding: 3em 0 0;
+  margin: 1em auto 0;
+}
+.PropertyPrice__group {
+  display: inline-block;
+  width: 100%;
+  padding: 40px 0;
+}
+
+.PropertyPrice__head {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.PropertyPrice__head h3 {
+  font-size: 3.125rem;
+  line-height: 59px;
+  letter-spacing: -1.4877px;
+  font-family: "Work Sans", Arial, sans-serif;
+  color: #01142a;
+  font-weight: 800;
+}
+
+.PropertyPrice__content__price h2 {
+  display: inline-block;
+  width: 100%;
+  font-size: 21px;
+  color: #01142a;
+  margin-bottom: 3px;
+  text-align: left;
+}
+.PropertyPrice__content__price {
+  margin: 5em 0;
+}
+.PropertyPrice__content__price p {
+  display: inline-block;
+  width: 100%;
+  font-size: 18px;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.PropertyPrice__range__slider__top {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  line-height: 1;
+}
+
+.PropertyPrice__range__slider__top .PropertyPrice__range__slider__value__top {
+  display: inline-block;
+  width: auto;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+.PropertyPrice__range__slider__value__top h3 {
+  display: inline-block;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.PropertyPrice__range__slider__value__top p {
+  color: #03a9f4;
+}
+.PropertyPrice__range__slider__value__bot p {
+  color: #6dc251;
+}
+.PropertyPrice__range__slider__value__top p,
+.PropertyPrice__range__slider__value__bot p {
+  display: inline-block;
+  width: 100%;
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+.PropertyPrice__slider {
+  display: flex;
+  width: 100%;
+}
+.min__value {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+  vertical-align: middle;
+}
+.min__value span,
+.max__value span {
+  padding: 0 10px;
+  display: inline-block;
+  width: auto;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 400;
+  color: #01142a;
+  margin-top: 10px;
+}
+.slider__container {
+  width: calc(100% - 200px);
+  display: inline-block;
+  text-align: center;
+  vertical-align: text-bottom;
+}
+.max__value {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100px;
+  text-align: left;
+}
+.PropertyPrice__range__slider__bot {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  vertical-align: bottom;
+  line-height: 1;
+}
+.PropertyPrice__range__slider__bot .PropertyPrice__range__slider__value__bot {
+  padding-top: 20px;
+}
+.PropertyPrice__range__slider__value__bot h3 {
+  display: inline-block;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}

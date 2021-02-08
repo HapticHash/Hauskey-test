@@ -1,0 +1,56 @@
+.FeaturedProjects {
+  display: inline-block;
+  width: 100%;
+  padding: 0px 0 30px;
+  background-color: #fff;
+}
+
+.FeaturedProjects .FeaturedProjects__head {
+  margin-bottom: 27px;
+  transition: 0.3s all ease;
+}
+.FeaturedProjects__head {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.FeaturedProjects__head h3 {
+  font-size: 3.125rem;
+  line-height: 59px;
+  letter-spacing: -1.4877px;
+  font-family: "Work Sans", Arial, sans-serif;
+  color: #01142a;
+  margin-bottom: 0.5em;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 800;
+}
+.FeaturedProjects__col {
+  display: flex;
+  align-items: stretch !important;
+}
+.FeaturedProjects__card {
+  border-radius: 1em;
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-bottom: 2em;
+}
+
+.FeaturedProjects__card img {
+  border-radius: 1em 1em 0 0;
+  width: 100%;
+}
+.FeaturedProjects__card__title {
+  font-weight: 700;
+  font-family: "Work Sans", serif;
+  font-size: 1.8rem;
+  color: #111;
+}
+.FeaturedProjects__card__subTitle {
+  font-size: 1.05rem;
+  color: #0f9d58;
+  margin-bottom: 0.6em;
+}
+.FeaturedProjects__card__text {
+  font-size: 1rem;
+  text-align: justify;
+}

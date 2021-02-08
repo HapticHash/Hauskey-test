@@ -1,0 +1,119 @@
+.Contact__heading {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.Contact__heading h3 {
+  font-size: 3.125rem;
+  line-height: 59px;
+  letter-spacing: -1.4877px;
+  font-family: "Work Sans", Arial, sans-serif;
+  color: #01142a;
+  margin-bottom: 1em;
+  font-weight: 800;
+}
+
+.button__group {
+  width: 100%;
+  text-align: center;
+}
+.submit__button {
+  display: inline-block;
+  width: auto;
+  border: 2px solid #01142a;
+  background-color: #01142a;
+  border-radius: 2em !important;
+  color: #fff;
+  padding: 0.8em 3em;
+  border-radius: 3px;
+  font-size: 14px;
+  margin: 10px auto;
+  transition: 0.3s all ease;
+}
+.submit__button:hover {
+  background-color: #01142a !important;
+  text-decoration: none !important;
+}
+.contact_form {
+  width: 100%;
+}
+.form-control::placeholder {
+  font-size: 0.9rem;
+}
+.button__group {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.Contact__card {
+  width: 70%;
+  padding: 0.5em;
+  margin: 3rem auto;
+  border-radius: 1em;
+  background-color: #472ecd;
+  box-shadow: #462ecdc1 2px 3px 20px 0px;
+}
+.Contact__card__title {
+  font-size: 1.5rem;
+  font-family: "Work Sans" serif;
+  font-weight: 800;
+  text-align: center;
+  color: #f4f4f8;
+  letter-spacing: 1px;
+  margin: 1em 0;
+}
+.Contact__card__subTitle {
+  font-size: 1rem;
+  color: #b9afd8;
+}
+.Contact__card__text {
+  text-align: left;
+  padding: 1rem;
+}
+.details {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+}
+.details__ui {
+  list-style-type: none;
+}
+.details__ul li {
+  padding: 1em;
+  list-style-type: none;
+}
+.details img {
+  width: 1.7em;
+  margin-right: 1em;
+}
+.details__location {
+  width: 2.3rem !important;
+}
+.li__text,
+.li__text a {
+  font-size: 1rem;
+  color: #f4f4f8;
+  text-decoration: none !important;
+}
+
+@media only screen and (min-width: 320px) {
+  .Contact__card {
+    width: 100%;
+  }
+  .button__group {
+    margin-bottom: 2em;
+  }
+  .Contact__heading h3 {
+    margin-bottom: 0;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .Contact__card {
+    width: 80%;
+  }
+  .button__group {
+    margin-bottom: 0;
+  }
+  .Contact__heading h3 {
+    margin: 1em 0;
+  }
+}

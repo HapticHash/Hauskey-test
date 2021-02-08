@@ -1,0 +1,132 @@
+.AppFooter__main {
+  display: inline-block;
+  width: 100%;
+  color: #fff;
+  background-color: #01142a;
+  padding: 15px 0;
+}
+.AppFooter__content {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.AppFooter__content .AppFooter__logo {
+  display: inline-block;
+  width: auto;
+  vertical-align: middle;
+}
+.AppFooter__content .AppFooter__logo img {
+  display: inline-block;
+  width: 80px;
+  vertical-align: middle;
+}
+.AppFooter__login__user {
+  padding-left: 15px;
+}
+.AppFooter__login___user___link {
+  display: inline-block;
+  width: auto;
+  float: right;
+  margin-top: 33px;
+}
+.AppFooter__login___user___link li {
+  display: inline-block;
+  width: auto;
+  margin-bottom: 0;
+}
+.AppFooter__login___user___link li a {
+  display: inline-block;
+  width: auto;
+  color: #fff;
+  position: relative;
+  padding: 0 5px;
+  touch-action: manipulation;
+}
+
+.AppFooter__copyright__container {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 5px;
+  padding-top: 15px;
+}
+.AppFooter__copyright__container .AppFooter__copy__left {
+  display: inline-block;
+  width: auto;
+}
+.AppFooter__copyright__container p {
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  font-size: 0.875rem;
+  margin-bottom: 1em;
+  margin-top: 0;
+}
+.AppFooter__copyright__container .AppFooter__copy__right {
+  display: inline-block;
+  width: auto;
+  float: right;
+}
+.AppFooter__copyright__container .AppFooter__copy__right ul {
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.AppFooter__copyright__container .AppFooter__copy__right ul li {
+  display: inline-block;
+  width: auto;
+  list-style-type: none;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.AppFooter__app__link__footer,
+.AppFooter__app__link__footer ul {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.AppFooter__app__link__footer ul li {
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+  margin-right: 0;
+  margin-bottom: 8px;
+}
+.AppFooter__app__link__footer ul li img {
+  display: inline-block;
+  width: 115px;
+}
+
+section {
+  scroll-behavior: smooth;
+}
+.AppFooter__links {
+  display: inline-block;
+  width: auto;
+  margin-top: 0;
+  margin-bottom: 12px;
+  vertical-align: middle;
+}
+
+.AppFooter__links li {
+  width: 100%;
+  display: inline-block;
+  list-style-type: none;
+  margin-bottom: 0;
+}
+.AppFooter__links li a {
+  display: inline-block;
+  width: auto;
+  padding: 10px 5px;
+  color: #fff;
+}
